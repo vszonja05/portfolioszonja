@@ -1,0 +1,70 @@
+/* Alap stílusok */
+body {
+    background-color: #a4d8e1; /* RAL pasztell kék háttér */
+    font-family: Arial, sans-serif;
+    color: black; /* Fekete szöveg */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fejléc stílus */
+header {
+    background-color: #f0f8ff; /* Pasztell kék fejléc */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigációs menü */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Sorba rendezés */
+    margin: 0 10px;
+}
+
+/* Szélesség korlátozása a gomboknak */
+nav button {
+    padding: 10px 20px;
+    font-size: 16px; /* Gomb betűméret */
+    cursor: pointer;
+}
+
+/* Szakaszok stílusai */
+.section {
+    padding: 20px;
+    display: none; /* Kezdetben elrejtve */
+}
+
+/* Tartalom elrendezése */
+.content {
+    display: flex; /* Flexbox használata az elrendezéshez */
+    align-items: center; /* Képek és szövegek függőleges középre igazítása */
+}
+
+/* Kép stílus */
+img {
+    width: 40%; /* Kép méretének csökkentése */
+    height: auto; /* Arányok megőrzése */
+    margin-right: 20px; /* Térköz a kép és a szöveg között */
+}
+
+/* Címek stílusa */
+h2 {
+    font-size: 24px; /* Cím betűméret */
+}
+
+/* Szöveg stílus */
+p {
+    font-size: 18px; /* Szöveg betűméret */
+}
+
+/* Lábléc stílus */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: white; /* Fehér lábléc */
+    color: black; /* Fekete szöveg a láblécben */
+}
